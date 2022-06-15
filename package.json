@@ -1,0 +1,25 @@
+{
+  "name": "spotifyproject",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "d3": "^7.4.4",
+    "d3-scale": "^4.0.2",
+    "git": "^0.1.5",
+    "next": "12.1.6",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDependencies": {
+    "eslint": "8.17.0",
+    "eslint-config-next": "12.1.6",
+    "eslint-plugin-react-hooks": "^4.5.0"
+  }
+}
