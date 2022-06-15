@@ -2,7 +2,6 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import React, { useEffect, useState, useRef } from 'react';
 import axios from 'axios';
-import Image from 'next/Image'
 import * as d3 from 'd3'
 
 
@@ -29,15 +28,6 @@ export default function Home() {
   const [artist, setArtist] = useState({})
   const [query, setQuery] = useState("")
   const [a, setA] = useState("")
-
-
-
-
-  // useEffect(() => {
-  //   if (query)
-  //     getArtist(event)
-
-  // }, [query])
 
 
 
@@ -181,7 +171,7 @@ export default function Home() {
           <li><button onClick={() => { setA(artist) }}>{artist.name}</button></li>
         </ol>
       </div>
-
+ 
     )))
   }
 
@@ -215,7 +205,7 @@ export default function Home() {
         <nav>
           <div className={styles.container}>
             <div className={styles.nav}>
-              <Image src="/logo.png" width={225} height={70}  ></Image>
+              <img src="/logo.png" width={225} height={70}  ></img>
               {
                 token ?
 
