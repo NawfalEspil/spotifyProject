@@ -7,7 +7,7 @@ import * as d3 from 'd3'
 
 const clientID = "9295e33704954fa28da167392bb0e480";
 const authEndpoint = "https://accounts.spotify.com/authorize";
-const redirectURL = "http://192.168.1.247:3000/";
+const redirectURL = "https://nawfalspotify.vercel.app/";
 
 
 
